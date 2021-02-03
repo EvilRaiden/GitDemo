@@ -17,3 +17,5 @@ public String getShape(){return "Square";}
 public String toString(){return "side is "+side;}
 
 }
+
+//apt get install brain
