@@ -17,7 +17,7 @@ public void addShape(GeometricObject shape){
 		shapeList.add(shape);
 	}
 	else{
-		System.out.println("No more space in the list");
+		System.out.println("No more space in the list");//display a message.
 	}
 
 }
