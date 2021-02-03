@@ -4,7 +4,7 @@ import java.util.*;
 public class GeometricShapeCollection implements ShapeCollection {
 
 private ArrayList<GeometricObject> shapeList;
-private int numObject;
+private int numObject; //private scope
 
 
 public GeometricShapeCollection(int listLength){
