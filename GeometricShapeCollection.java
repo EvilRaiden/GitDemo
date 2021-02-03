@@ -23,7 +23,7 @@ public void addShape(GeometricObject shape){
 }
 
 public void printShapeList(){ //does not return a value
-	for(int i=0; i<shapeList.size(); i++){ //increments i by 1 each time it iterates
+	for(int i=0; i<shapeList.size(); i++){
 		if(shapeList.get(i).getShape().equals("Circle")){
 			System.out.println("Shape = Circle, Area = "+shapeList.get(i).getArea() + ", Perimeter = " + shapeList.get(i).getPerimeter());
 		}
@@ -41,7 +41,7 @@ public void printShapeList(){ //does not return a value
 
 public boolean runMenu(){
 
-boolean exit = false;
+boolean exit = false;//exit is a boolean variable
 	System.out.println("To Add a new shape press 1");
 	System.out.println("To print the list of the shapes press 2");
 	System.out.println("To exit press 3");
@@ -64,7 +64,7 @@ boolean exit = false;
 				System.out.println("Is it filled? (y/n)");
 				String isFilled = s.nextLine();
 				
-				boolean filled = false;
+				boolean filled = false;//checks whether the filled satisfy the condition.
 					if (isFilled.equals("y"))
 						filled = true;
 					else if (isFilled.equals("n"))
