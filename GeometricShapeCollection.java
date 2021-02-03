@@ -107,7 +107,7 @@ boolean exit = false;
 
 }
 
-public static void main(String[] args){
+public static void main(String[] args){ //Main body starts from here.
 
 	ShapeCollection sys = new GeometricShapeCollection(10);
 	boolean exit = false;
