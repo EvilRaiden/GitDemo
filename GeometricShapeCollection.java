@@ -23,7 +23,7 @@ public void addShape(GeometricObject shape){
 }
 
 public void printShapeList(){ //does not return a value
-	for(int i=0; i<shapeList.size(); i++){
+	for(int i=0; i<shapeList.size(); i++){ //increments i by 1 each time it iterates
 		if(shapeList.get(i).getShape().equals("Circle")){
 			System.out.println("Shape = Circle, Area = "+shapeList.get(i).getArea() + ", Perimeter = " + shapeList.get(i).getPerimeter());
 		}
