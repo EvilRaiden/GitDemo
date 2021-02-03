@@ -46,7 +46,7 @@ boolean exit = false;
 	System.out.println("To print the list of the shapes press 2");
 	System.out.println("To exit press 3");
 	
-	Scanner s = new Scanner (System.in);
+	Scanner s = new Scanner (System.in);//takes an input from the user
 	int choise = s.nextInt();
 
 		switch(choise){
