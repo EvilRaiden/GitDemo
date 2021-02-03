@@ -4,7 +4,7 @@ import java.util.*;
 public class GeometricShapeCollection implements ShapeCollection {
 
 private ArrayList<GeometricObject> shapeList;
-private int numObject; 
+private int numObject; //private scope
 
 
 public GeometricShapeCollection(int listLength){
@@ -22,7 +22,7 @@ public void addShape(GeometricObject shape){
 
 }
 
-public void printShapeList(){
+public void printShapeList(){ //does not return a value
 	for(int i=0; i<shapeList.size(); i++){
 		if(shapeList.get(i).getShape().equals("Circle")){
 			System.out.println("Shape = Circle, Area = "+shapeList.get(i).getArea() + ", Perimeter = " + shapeList.get(i).getPerimeter());
